@@ -1,0 +1,97 @@
+
+body{
+background:#885;
+
+}
+
+header{
+display: flex; 
+height:100px;
+justify-content: space-between;
+align-items: center;
+padding:50px;
+background-color:brown;
+border-radius:20px;
+}
+#gy{
+width:54%;
+text-align: center;
+position: absolute;
+background-color:lightblue;
+padding:20px;
+border-radius:20px;
+align-items:center;
+}
+img{
+width:100%;
+height:auto;
+object-fit:cover;
+}
+#play{
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-color:brown;
+padding: 13px;
+border-radius:20px;
+}
+#play img{
+width:100%;
+margin-top:0px;
+border-radius: 20px;
+border-bottom: 1px solid black;}
+    
+#play>img {    
+width: 100%;
+display: block;
+margin:40 auto;
+top:40%;
+}
+
+#play{
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-color:brown;
+padding: 13px;
+border-radius:20px;
+}
+#play img{
+width:150px;
+margin-top:2px;
+badding:2px;
+}
+ul {
+list-style: none; 
+padding: 0;
+margin: 0;
+}
+
+ul li a{
+text-decoration: none;
+font-family: "Kaushan Script", cursive;
+color:orange;
+display: block;
+width: 300px;
+height: 25px;
+margin: 5px;
+padding: 16px;
+border: 1px solid tomato;
+border-radius: 50px;
+text-align: center; 
+line-height: 25px;
+background-color: white;
+}
+
+ul li a:hover{
+background-color:orange;
+color:black;;
+}
+.left-section{
+background-color:red;
+
+}
